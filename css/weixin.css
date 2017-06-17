@@ -1,0 +1,116 @@
+/*
+* @Author: Administrator
+* @Date:   2017-06-17 17:38:09
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-06-17 17:42:53
+*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑","Arial";
+}
+#d1{
+	width:400px;
+	height:700px;
+	background: #eee;
+	margin: 0px auto;
+	margin-top:70px;
+	box-shadow: 5px 5px 15px #999;
+	position: relative;
+}
+#top{
+	width:360px;
+	height: 40px;
+	background: #000;
+	line-height: 40px;
+	padding:0px 20px;
+	color:#fff;
+}
+.lt{
+	float: left;
+}
+.rt{
+	float: right;
+}
+.content{
+	width:400px;
+	height:600px;
+	overflow-x: hidden;
+}
+#footer{
+	width:400px;
+	height:60px;
+	background: #666;
+}
+#footer img{
+	width:45px;
+	height:45px;
+	border-radius: 50%;
+	margin-left: 20px;
+	margin-top: 8px;
+}
+#footer #txt{
+	width:250px;
+	height:40px;
+	background: #fff;
+	border-radius: 3px;
+	margin-left:20px;
+	margin-top:8px;
+	border:none;
+	color:#ddd;
+}
+#footer .text:focus,#footer .btn:focus{
+	outline: none;
+}
+#footer .btn{
+	width:50px;
+	height: 40px;
+	background: #ccc;
+	border: none;
+	border-radius: 3px;
+	margin-left:8px;
+	margin-top: 8px;
+}
+#footer .btn:hover{
+	cursor: pointer;
+}
+#content li {
+	width:380px;
+	padding:20px 10px;
+}
+#content li .chatBox{
+	max-width: 380px;
+	padding:8px;
+	border-radius: 8px;
+	border:1px solid #ddd;
+	box-shadow: 0px 0px 3px #ddd;
+	width:300px;
+}
+#d1 .content li {
+	width: 360px;
+	overflow: hidden;
+	padding: 20px 10px;
+}
+#d1 .content .chatBox{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 4px 10px 0 10px;
+    max-width: 350px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 3px #ccc;
+    width: 250px;
+    overflow: hidden;
+}
+#d1 .content .icon {
+	width: 45px;
+}
+#d1 .content .icon img{
+	width: 45px;
+}
+#d1 .content .green {
+	background: #7cfc00;
+}
+#d1 .content .white{
+	background: #fff;
+}
